@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+#root {
+    background: #2cebc7;
+    background: -moz-linear-gradient(45deg, #2cebc7 0%, #8267d5 100%);
+    background: -webkit-linear-gradient(45deg, #2cebc7 0%, #8267d5 100%);
+    background: linear-gradient(45deg, #2cebc7 0%, #8267d5 100%);
+    min-height: 100vh;
+    height: auto;
+}
+
+.loading-spinner {
+    display: grid;
+    place-items: center;
+    height: 50vh;
+    width: 100vh;
+}
