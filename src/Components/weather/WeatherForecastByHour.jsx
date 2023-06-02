@@ -23,7 +23,7 @@ export const WeatherForecastByHour = ({ long, lat }) => {
             <div className="card-weather shadow">
                 {weather5day.list?.map((data, index) => {
                     if (
-                        (index === 0 && CompareDates(data.dt_txt) && index === 1 && !CompareDates(data.dt_txt)) ||
+                        (index === 0 && CompareDates(data.dt_txt)) ||
                         (index === 1 && !CompareDates(data.dt_txt))
                     ) {
                         return (
@@ -44,8 +44,8 @@ export const WeatherForecastByHour = ({ long, lat }) => {
                                         </p>
                                     ))}
                                 </div>
-                                <hr className="fs-5 mt-5" />
-                                <ul className="weather-stats mt-3">
+                                <hr className="fs-5" />
+                                <ul className="weather-stats ">
                                     <li className="d-flex align-items-center me-2">
                                         <i className="bi bi-droplet-half fs-5" alt="humidity"></i>
                                         <p className="fs-6">{data.main?.humidity}%</p>
