@@ -1,5 +1,5 @@
 # weather-app
-### url: <a href="https://main--timely-brigadeiros-105333.netlify.app/">weather-app</a>
+### url: <a href="https://main--cozy-sopapillas-9f9af5.netlify.app/">weather-app</a>
 
 <img src="./img.png" alt="img-readme" />
 
