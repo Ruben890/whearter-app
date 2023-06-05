@@ -6,7 +6,8 @@ const CompareDates = (dateString) => {
       currentDate.getFullYear() === targetDate.getFullYear() &&
       currentDate.getMonth() === targetDate.getMonth() &&
       currentDate.getDate() === targetDate.getDate() &&
-      currentDate.getTime() === targetDate.getTime()
+      currentDate.getTime() === targetDate.getTime()  ||
+      currentDate.getTime() !== targetDate.getTime()
     );
   }
   
