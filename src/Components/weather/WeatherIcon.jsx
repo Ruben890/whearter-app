@@ -4,10 +4,10 @@ const WeatherIcon = ({ description }) => {
     const renderIcon = (description) => {
         if (description in Icons) {
             const { icon } = Icons[description];
-            return <img className=".weather-icon" src={icon} alt={description} />;
+            return <img className="weather-icon" src={icon} alt={description} width='150px'  height='150px'/>;
         } else {
             const { icon } = Icons.defaultIcon;
-            return <img className=".weather-icon__image" src={icon} alt="Default" />;
+            return <img className="weather-icon" src={icon} alt={description} width='150px'  height='150px'/>;
         }
     };
 
