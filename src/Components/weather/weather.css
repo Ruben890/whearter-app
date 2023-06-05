@@ -101,4 +101,12 @@ i {
     margin-left: 1rem;
     margin-bottom: 10px;
   }
+  
+   .weather-icon{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
 }
