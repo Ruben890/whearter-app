@@ -24,8 +24,8 @@ export const WeatherForecastByHour = ({ long, lat }) => {
                 {weather5day.list?.map((data, index) => {
                     if (
                         (index === 0 && CompareDates(data.dt_txt)) ||
-                        (index === 1 && !CompareDates(data.dt_txt))
-                    ) {
+                         (index === 1 && !CompareDates(data.dt_txt))
+                       ) {
                         return (
                             <div key={data.dt} className="weather-card">
                                 {index === 0 && (
