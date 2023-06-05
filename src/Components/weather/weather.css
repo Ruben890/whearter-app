@@ -101,10 +101,4 @@ i {
     margin-left: 1rem;
     margin-bottom: 10px;
   }
-
-  .weather-icon {
-    width: 14rem;
-    max-width: 100%;
-    height: auto;
-  }
 }
